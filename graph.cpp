@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -47,12 +48,6 @@ public:
 		delete[] adjMatrix;
 	}
 };
-
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <stdexcept>
-using namespace std;
 
 // Data structure for Max Heap
 struct PriorityQueue
